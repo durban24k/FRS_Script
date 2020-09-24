@@ -42,7 +42,7 @@ for(top, bottom, left, right), face_encoding in zip(face_locations,face_encoding
           name=known_face_names[first_match_index]
      
      # Draw Box
-     draw.rectangle(((left,top),(right,bottom)),outline=(0,0,0))
+     draw.rectangle(((left,top),(right,bottom)),outline=(255,0,0))
 
      # draw label
      text_width,text_height=draw.textsize(name)
